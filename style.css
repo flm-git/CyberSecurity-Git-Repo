@@ -1,0 +1,43 @@
+/* Basic styling for Git demo page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #24292e;
+    color: white;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+button {
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #22863a;
+}
+
+footer {
+    background-color: #24292e;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
